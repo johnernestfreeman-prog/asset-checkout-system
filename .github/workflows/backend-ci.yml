@@ -1,6 +1,4 @@
-Here's the full file with the fix applied — just the paths: sections get the extra line:
 
-yaml
 name: Backend CI
 
 on:
