@@ -59,3 +59,5 @@ jobs:
           DB_USER: postgres
           DB_PASSWORD: postgres
           DB_NAME: asset_checkout_test
+          JWT_SECRET: ci-test-secret
+        run: npx jest --coverage
