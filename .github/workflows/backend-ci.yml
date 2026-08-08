@@ -1,3 +1,6 @@
+Here's the full file with the fix applied — just the paths: sections get the extra line:
+
+yaml
 name: Backend CI
 
 on:
@@ -6,10 +9,12 @@ on:
     branches: [main]
     paths:
       - 'backend/**'
+      - '.github/workflows/backend-ci.yml'
   pull_request:
     branches: [main]
     paths:
       - 'backend/**'
+      - '.github/workflows/backend-ci.yml'
 
 jobs:
   test:
